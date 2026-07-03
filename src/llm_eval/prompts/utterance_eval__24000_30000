@@ -1,0 +1,380 @@
+The following are the sessions of a human–human conversation between two
+speakers as CSV dataset. Label every utterance below as per system instructions. Return the CSV (initial_data_id,session_id,turn_idx,llm_prediction).
+
+CSV Dataset:
+initial_data_id,session_id,turn_index,text
+test_935,4,7,"No, they don't really live in the area I am at since it is a sort of bay/island.  They prefer wide open ocean."
+test_935,4,8,I envy how you are surrounded by nature. As much as I love the concrete jungle it is getting to crowded at times. Do you ever long for big city life?
+test_935,4,9,"No way, you should try living in nature at some point.  Go rent a cabin for a week and see how beautiful it is."
+test_935,4,10,I have been contemplating a trip to Iceland as I am determined to see the Northern Lights.
+test_935,4,11,Oh man.  Iceland is the most beautiful place I've ever visited.
+test_936,4,0,"What do you do with your free time in the summer, since you are a teacher? "
+test_936,4,1,I have been slowly training for the Iron Man. I emphasize slowly. What do you do in your spare time?
+test_936,4,2,"Ha, how fast do you run a mile?  I like to go running and swimming every night."
+test_936,4,3,Don't laugh but my mile is just under nine. Sad since the world champion can run it twice and beat me with room to spare.
+test_936,4,4,Eliuid kipchoge?  That dude can run a marathon at a faster mile rate than I can run one mile haha.
+test_936,4,5,I am right there with you. I can not understand how one runs just over 26 miles in two hours. If I sprinted the last hundred against his full marathon he would still annihilate me. What are your times?
+test_936,4,6,I can run a mile in 7 minutes but that is when it starts to hurt real bad.  I can do 9 comfortably.
+test_936,4,7,Okay so I have to aspire to your level. I can't wait to get even to there. I was hoping that the thought of Hawaii would inspire me for the upcoming Iron Man in October but I have made little progress in the last six months.
+test_936,4,8,Where are you running into trouble with the training?
+test_936,4,9,I have issues with motivation and there appears to be something off with my breathing. I keep feeling like I have bronchitis after I run. What is that?
+test_936,4,10,"Uhhh, you may want to see a doctor.  That could be something bad."
+test_936,4,11,I thought it might be exercise asthma but maybe you are right. I will have to make an appointment.
+test_938,4,0,I have been looking at tattoo artists near me and I think I found one that I like on Instagram! I will send you their page.
+test_938,4,1,Great thank-you! How is work going?
+test_938,4,2,Everyone was buying a lot of bananas today. Is it some sort of banana related holiday or something?
+test_938,4,3,HaHa! Could be we might be missing out on something! Have you decided on what tattoo you want?
+test_938,4,4,"A banana tattoo? I really have no idea, I just don't want it to look too dumb."
+test_938,4,5,I don't blame you I have too many regrettable tattoos. So maybe banana tattoo shouldn't be your first choice ;D Take your time and think about it. Make sure you reallyt look into the artist and see a lot of their work.
+test_938,4,6,That's why I'm sending you the Instagram page to look at. I really need your opinion before I do something regrettable. 
+test_938,4,7,I will definately take a look at it and give you my opinion. I know of a good artist that will be moving into your area soon so I will send you her web address. Have you had any time to do any spray painting lately?
+test_938,4,8,"No, it's been super windy this week. Too windy to spray paint for sure. Man, there is nothing like the smell of fresh spray paint."
+test_938,4,9,I agree I love the smell of spray paint. It's been really windy here too. That might put a damper on peoples Banana Holiday plans. What type of pictures have you spray painted?
+test_938,4,10,"Most of my work looks like cartoon characters. Not famous characters, but that type of style is what I go for usually."
+test_938,4,11,Sounds interesting. Have you thought about a tat of one of them?
+test_939,4,0,What's your favorite drink at your mom's coffee shop? I'm looking to try something new when I go!
+test_939,4,1,It is the Mocha Caramel latte with a sprinkling of french toast and chocolate shavings on top. What is your favorite coffee flavor?
+test_939,4,2,That sounds delicious!  I usually get a Caramel Macchiato or a Vanilla Latte.  I have only recently started grinding my own beans.  So much better!
+test_939,4,3,"Very true, it is so much better when they are freshly ground. I am spoilt at the coffee shop but I should make the effort to do it at home."
+test_939,4,4,So that's cool you are designing a mural for your mom's shop.  Are you an artist?
+test_939,4,5,I am. I am currently looking to incorporate local businesses into but also feature a community outreach to support the local animal shelter. I am having a creative block. Any suggestions?
+test_939,4,6,"I kind of envision a mural of various ethnicities and genders talking, sipping coffee.  Colorful, and if outside, perhaps some doggies sitting waiting while their owners sip their coffee.  But I'm no expert...lol"
+test_939,4,7,"So go the less obvious but more open route. Interesting, I need to draw attention without the sense of obligation. I like it."
+test_939,4,8,"Well, I'm sure you'll do a great job!  I'm envious because I am the least artistic person in the world....lol"
+test_939,4,9,I highly doubt that. Art is subjective and open to creative interpretation. You should try it in whatever form. It is incredibly relaxing.
+test_939,4,10,I may do that.  Just to tap into my creativity.  I do enjoy writing - especially poetry.
+test_939,4,11,That is cool. I am a huge fan of Dylan Thomas. Who do you respond to?
+test_942,4,0,"You won't believe it, but my cat actually broke my robot vacuum. I'm so annoyed!"
+test_942,4,1,"That is annoying, but kind of funny at the same time.  If you recorded a video of it, maybe it could have gone viral.  Cat versus vacuum.  I'm not sure how my gecko would feel about the robot vacuum."
+test_942,4,2,The gecko could just ride along on the vaccum honestly.  At least it wouldn't destroy it.
+test_942,4,3,"That is a funny visual, seeing a gecko riding on the vacuum.  How exactly did the cat destroy it?  Did it fight the robot vacuum>?"
+test_942,4,4,I'm not sure.  I came home and the vacuum was tilted against the wall destroyed.  It has cat scratches all over it so I'm assuming the cat did it.
+test_942,4,5,"Oh no, sure sounds like a cat fight to me.  I wonder if that can be covered under any kind of warranty?  What do you do with your cat when you go camping?  Have you ever taken your cat camping with you?  "
+test_942,4,6,"I'm not sure ""cat attacks"" are included in my warranty.  I usually hire a sitter.  There's a nice boy that lives down the street that takes care of my cat for me while I'm gone."
+test_942,4,7,That is nice to have someone close by to help look out.  Do you have a regular vacuum that you can use now?  Are you going to have to get a new one?  Are you going to get another robot vacuum?
+test_942,4,8,I want to get another robot vacuum.  It's nice because it cleans while I'm at work so I have more time to relax when I get home.
+test_942,4,9,"That is really nice, does it do a good job cleaning up pet hair?  Also, it might happen again,  how will you make sure the cat doesn't mess it up again?>"
+test_942,4,10,I'll have to put the cat away in a part of the house that the vacuum isn't in.  It does do a pretty good job of picking up pet hair.  It leaves some clumps behind but it gets most of them.
+test_942,4,11,I wonder how your cat would do with my gecko?  Do you think they would get along?
+test_943,4,0,I found a Peruvian restaurant in town that we can have lunch at. 
+test_943,4,1,"Okay, let's do it! There is a first time for everything. After we are done, you just have to show me this houseboat of yours!"
+test_943,4,2,"It is my pride and joy that floating home, not too strange after being in the Peace Corps!"
+test_943,4,3,"Yeah, I assume you're right. After being in the Peace Corps not too many things seem all that strange. I mostly want to see how the houseboat is built as I have no idea the type of construction that goes into it."
+test_943,4,4,I have no idea either since I didn't build it. I mostly live at the bar right now. I am sure you would be great in the PC once you graduate.
+test_943,4,5,"I hope so. I am ready to give back and help others who haven't had the same advantages as us. Plus, it will give me more experience in building housing for people. Do you have any suggestions as to what I should expect during my time in the PC?"
+test_943,4,6,"You should bring your dogs with you, and meet tons and tons of people! Be prepared to change your entire lifestyle, and outlook on life, for the better."
+test_943,4,7,That is the plan! Meeting different people will definitely be one of the benefits. Why do you suggest bringing my dogs with me?
+test_943,4,8,"Why would they want to miss out on that type of travel and meeting other dogs? They can smell a thousand new smells each day, and get out of that small yard they are stuck in."
+test_943,4,9,"All good points! I was mainly worried about leaving him along in a new place, but I'm sure he would enjoy the change of scenery just as much as me. You will have to tell me more about your experience during our lunch at the Peruvian place."
+test_943,4,10,"That is true, I can't wait, I will see you soon. Maybe we can go for Korean next time!"
+test_943,4,11,Sure thing! You keep making me trying new foods and getting me out of my comfort zone. I guess I should get used to that if I'm going into the PC.
+test_944,4,0,"Doesn't look like they're having a lot of punk acts at Coachella which is too bad, still planning to have a good time though!"
+test_944,4,1,Im sure there will be a few bands you will enjoy. It is Coachella after all.  
+test_944,4,2,"I hope so, and I hope that it's not just a bunch of snobby rich people. That's definitely not my scene, but I am looking forward to going."
+test_944,4,3,There will 100% be snobby rich but you will find more of your crowd im sure of it. 
+test_944,4,4,"Well, at least the people watching with you will be fun. lol! Do you know if they usually have good food there?"
+test_944,4,5,Oh I got you covered on the food front. The food there is like 40$ for a piece of toast with cheese and one slice of tomato LOL. We are going to have alot of fun 
+test_944,4,6,Perfect! I intentionally didn't check yet who is playing there. I want it to be a total surprise and just live in the moment. Did you have any trouble getting off of work? 
+test_944,4,7,Not at all. I told them before they hired me that I needed this week off.  Yup. I cheated and took a peek at whos playing though. YOU ARE GONNA LOVE IT!!
+test_944,4,8,Good. It sounds like we're all set then. Is there anything you need me to bring?
+test_944,4,9,SUNSCREEN!! Like barrels of it HAHAH! Just few basics. I will text you the list.
+test_944,4,10,"Thanks, I would appreciate that. And yes, sunscreen is vital for those of us who are 90% Irish. We just burn and freckle. Lather. Rinse. Repeat. LOL!"
+test_944,4,11,Yes I know how you burn.  Remember the pizza weekend at the beach last summer. Lobster boy HAHA JK JK
+test_945,4,0,Let's plan a time to go to the zoo since you are free for the next few weeks.
+test_945,4,1,Sounds like a great plan! Let's visit the zoo after you get all settled into your new place. How long can you stay at the zoo? Will it be an all day trip? I sure hope so.
+test_945,4,2,I can probably stay at the zoo the whole day.  How do you want to get there?  We could take the bus or I could see in one of my parents could take us.
+test_945,4,3,"Let's take the bus! I do not want your parents to have to drive all that way, and then we won't feel rushed either. I am really looking forward to seeing the baby lions that were just born. Which exhibit do you want to see?"
+test_945,4,4,I want to see the big cats - the lions and tigers.  How about you?
+test_945,4,5,"I definitely want to see the big cats too, that will have to be our very first stop. I think the zoo has recently released a new amphibian and reptile exhibit which will be  nice to check out. "
+test_945,4,6,"Those aren't my favorite animals, but that's okay.  At least I'm not afraid of snakes like some people."
+test_945,4,7,"Oh okay, we can skip it if you will feel scared. I know that there is another zoo in the next city over. Maybe we could visit that sometime over the summer as well? I have every weekend off this summe."
+test_945,4,8,That sounds like a plan.  I'll have to see which weekends work for me.
+test_945,4,9,"Okay, I hope that you will be able to visit the additional zoo with me. Zoo's and animals have been a big bonding point within our relationship. We could even get annual passes to the zoo and then visit as many times a year as we would like. Is that something that you may be interested in?"
+test_945,4,10,"Maybe, I'll have to see if I can afford it.  Hopefully, I will find a part time job for the summer."
+test_945,4,11,I hope that you are able to find a part time job. It should be easy since there are so many places hiring right now.
+test_946,4,0,What kind of car do you want to buy?
+test_946,4,1,"I have always wanted a Jeep, they seem like so much fun to drive, and there are so many things you can do to customize them.  "
+test_946,4,2,Nice! I love my Jeep.  What kinds of customizations would you want to make?
+test_946,4,3,"I'm not exactly sure,  I have always liked the idea of lifting it up a little bit with some nice tires.  I also like the idea of dropping the top and taking of the doors to feel the breeze when you drive it.  Does your Jeep have a hard or soft top?"
+test_946,4,4,Mine has a hard top.  I like to be protected from damage in case of an accident.
+test_946,4,5,That is smart thinking.  Do you ever take off the top or doors?  Do you have any other customizations on your Jeep?  Do you use it to tow or haul anything?
+test_946,4,6,I keep the tops and doors on because they make me feel safer.  I'm trying to decide whether or not I want to make any customizations.  I've never had to tow anything before and I'm hoping I don't have to.  I'm scared to break something.
+test_946,4,7,"That makes sense.  What color is your Jeep?  Also, what kind of vehicle does your husband drive?"
+test_946,4,8,My jeep is red.  My husband drives a toyota corolla.  He values reliability a lot in his cars.
+test_946,4,9,"I also value reliability.  Toyota's are good cars,  I have also been thinking about getting a Toyota.  They seem very practical."
+test_946,4,10,They're really good if you take care of them.  It seems like they can last forever.
+test_946,4,11,"There are a lot of them on the road. I heard that you have to pay more for insurance on red vehicles, is that true with your Jeep?"
+test_948,4,0,"Is your car an SUV, sedan or truck? "
+test_948,4,1,My car is a Dodge van.   Do you like your new SUV?
+test_948,4,2,I really do! It has every option I wanted and it's such a nice ride! What year is your Dodge van?
+test_948,4,3,It is an older van-2010.   You mentioned that you travel a lot.   Where have you been lately? If I may ask?
+test_948,4,4,"I just came back from a trip to the coast. I haven't been to the beach in so long, I decided to break in the new SUV. "
+test_948,4,5,Ahhh that sounds so refreshing.   Did you have any stories from going to the beach?  
+test_948,4,6,"I went scuba diving while there. I haven't done much of that, so it was a new experience for me. Since you like scuba diving, where are some of the best places you've been diving?"
+test_948,4,7,"Oh my!  If you want the best scuba diving places, you have got to try Thistlegorm in the  Egyptian Red Sea."
+test_948,4,8,That sounds like an awesome trip! Were you there as a Marine or was it a vacation trip?
+test_948,4,9,"I was there as a marine, but was never able to go diving.  I had to stay in the boat.  But I did go back for a vacation trip.   "
+test_948,4,10,Oh wow! What did you see while diving?
+test_948,4,11,"You won't believe it, but there are tanks, aircraft, armoured vehicles, Jeeps and Bedford trucks down there.   It is so awesome to explore and take pictures.   "
+test_949,4,0,I'm looking forward to baking your recipe.
+test_949,4,1,Which recipe in particular are you interested in? The cookies or the brownies?
+test_949,4,2,"Honestly both, your baking is incredible but I would defiantly like to try the brownies first. "
+test_949,4,3,"They are my favorite. I will send you the recipe once we're done talking. I suggest adding some walnut to the ingredients, but you don't have to if you don't like them or are allegeric."
+test_949,4,4,"They are the best. I will make two batches one with the walnuts and one without, I’m looking forward to seeing which ones I prefer. Thank you for allowing me to use your recipes. "
+test_949,4,5,"Anytime. I like to share the love. Speaking of sharing the love, would you mind helping me get my gaming computer set up?"
+test_949,4,6,"Oh yeah of course, I would love to help you. Let me know which day works best for you and I will come over and set it up for you.  "
+test_949,4,7,"I work the next three days, but will have two days off after that. Does that work for you? Once we get it set up, we might want to consider playing a little League of Legends!"
+test_949,4,8,Yeah that will work out great. And yes we absolutely need to play. Hopefully you will be able to give me some pointers as I still getting used to playing it and you play so well at that game. 
+test_949,4,9,"Happy to do so, but as you know, I can get a little competitive... I will try to keep the swearing down, but no promises! "
+test_949,4,10,"No your good I can get competitive too when i am good at the game, so I completely understand haha. "
+test_949,4,11,"I don't know why, but I just start seeing red when I lose. It is a problem and I am working on it, but I have always been this way. I am seeing an anger management specialist and she is helping, but I still have a long way to go."
+test_953,4,0,Guess who finally booked their trip!
+test_953,4,1,No way! You booked that cruise to Alaska? Without me?
+test_953,4,2,I couldn't wait! It just sounded like so much fun! You should book yours too if you want to come with me
+test_953,4,3,"Ha-ha, that's great to hear. You know I really want to go but I'm just so busy with this whole e-commerce store. You know despite it being entirely online, it still sucks up a lot of my time. I could really use a good cruise to relieve some stress, though."
+test_953,4,4,"Cruises have wifi nowadays, maybe you could do some work at night? It wouldn't be as fun though."
+test_953,4,5,"Yeah, that's exactly what I was considering, but I don't know if I'd be able to enjoy it as much. I think I just need a little more time before I bite the bullet. How long is the cruise going to be?"
+test_953,4,6,This cruise will be one week long. Hopefuly sometime soon you will be able to take that much time off work.
+test_953,4,7,"One week isn't too bad. How are you going to handle it? You can also work remotely since you do programming, actually."
+test_953,4,8,"Hopefully I will be able to get enough done before I leave that I won't have to work while I'm on vacation, but usually something comes up anyways whenever I try to do that."
+test_953,4,9,There's always something that gets in the way. Do you think you could teach me how to swim if I decide to go? I'd hate to be in the middle of the ocean without knowing.
+test_953,4,10,"Sure, I could teach you! It will be useful if you want to participate in any of the water activities on the stops in Alaska."
+test_953,4,11,"Awesome! Speaking of Alaska, I'm assuming the cruise takes place during the warmer months? I know you hate cold weather, ha ha."
+test_957,4,0,I watched some of your recommended shows
+test_957,4,1,Oh which one did you watch first? Tell me please. I get excited when people check out my suggestions!
+test_957,4,2,I watched the Jimmy Car special. It was great!
+test_957,4,3,"I'm so glad that you liked it! I watched it only once but I've thought about watching it again. Well if you tried one of mine, maybe I'll watch one of yours."
+test_957,4,4,I'm glad I did too! Thank you for the recommendation. You definitely should watch one of my favorites! I feel so special when people take the time to watch my favorite shows and movies.
+test_957,4,5,I was thinking about subscribing to HBO Max possibly. Do you think that it's worth getting right now?
+test_957,4,6,"Honestly, no, I do not think an HBO Max subscription is worth it. Maybe they have a free trial if you want to see if it's for you before you purchase it."
+test_957,4,7,That's what I thought. I've not heard anything on there that grabs my attention. There was a movie or two but most of it doesn't seem worth the price of admission. I'll just stick to my Netflix for now. So which one of your shows should I check out?
+test_957,4,8,I think you would like The Mitchells vs. the Machines. It is a comedy movie you can stream on Netflix. You can even watch it with your kids because it's rated PG!
+test_957,4,9,Perfect! I like to watch anything that I can share with my kids. I'll make sure to see if I can find it. I'll even show them a trailer so they can see what it's like. Thanks for the recommendation!
+test_957,4,10,Of course! I hope you enjoy it. Please let me know what you and your kids think once you watch.
+test_957,4,11,I'm sure that they will like it. They love comedy movies almost as much as Horror movies. This one sounds like one that the whole family can enjoy.
+test_962,4,0,How was your deployment? Are you glad to be back home?. 
+test_962,4,1,"It was very exhilarating. I have to be honest, I miss the action. While I love free time, it gets quite lonely. Do you have any recommendations on how I can spend the time?"
+test_962,4,2,You could always visit the beaches. They are beautiful. Maybe go for a dive since I know you like that.
+test_962,4,3,"I used to do a lot of diving while I was deployed too. Reminds me of being back in action. Lately, I've been making paint designs on shoes and hats. Have you been working on any projects?"
+test_962,4,4,I have been! I've been working on this great sea life drawing to promote this local company. I'm really happy with how it's coming along. What sort of designs have you been doing?
+test_962,4,5,That sounds great. Let me know if there's anything I can do to help promote. I have been painting a lot of designs based off my favourite rock bands. I love Led Zeppelin. Who do you listen to?
+test_962,4,6,"Led Zeppelin is great, but I really like Metallica. Do you ever listen to them?"
+test_962,4,7,Yes! I love them too. We should start a rock band together haha. Might help me pass the time. Just kidding but we should seriously go surfing sometime! I want to get the hang of it.
+test_962,4,8,"Oh yes, I'd love to finally learn to surf! Maybe we can be surfing rockers ha ha. How hard do you think it will be to learn?"
+test_962,4,9,"Considering how bad I am at surfing, likely impossible for me. But I'll cheer you on. I can teach you diving as well while we're at it. If we dive deep enough, we might be able to see some distant whales."
+test_962,4,10,Oh I'd love to learn to dive and hopefully see some whales! What's your favorite thing about diving?
+test_962,4,11,Seeing the sea creatures for sure. It is so beautiful underwater. It's like a whole new world. There are so many coral structures and interesting species that you don't learn about in school. I'm sure you'll love the experience. We can get you a waterproof go-pro so you can record your experience.
+test_963,4,0,Hey did you get to try any of those Asian vegan recipes we talked about? 
+test_963,4,1,I tried the Thai green curry but the curry overpowered the dish. I am looking to make my own Miso Udon this weekend.
+test_963,4,2,I'm sorry it didn't work out. Miso Udon should be better. It's been known to have a milder flavor. I've also heard that Miso Udon is pretty healthy so that's good! Hope it turns out good. I think I'm going to make Thai green curry tonight
+test_963,4,3,Awesome. Keep sending me the recipes and I will keep trying them out. I am hoping that I can grow enough of what I need from some of these when I own my own ranch in the future.
+test_963,4,4,Oh that's awesome. Maybe you can lend me some herbs and vegetables in the future! What plants do you expect to grow on your ranch? A lot of Asian food is very diverse so it may be hard to grow everything you need for every Asian recipe.
+test_963,4,5,"Yeah, I know. My favorite dish so far is the Garlic Broccoli stir fry so I will have most of that covered in my garden. As far as herbs, I am not sure. Thyme, Basil, Cilantro, etc."
+test_963,4,6,Fresh basil is my favorite! It tastes so good and you can use it for so much. Garlic broccoli is very good though but I prefer my broccoli seared and sautéd. Do you have any experience growing these plants?
+test_963,4,7,I have never tried the broccoli but my mom has although she likes to harvest early so she starts them indoors. She is going to teach me so I can gain so I can gain some experience. I have grown my own chickpeas for the first time this last year so that was exciting.
+test_963,4,8,That sounds nice that your mother has experience! I cannot grow anything at all. I seem to kill everything I grow. Where do you live? Will there be enough rain and sun to grow plants?
+test_963,4,9,I live in Florida right now so we have plenty of rain and sun but I can not wait to move to someplace more rustic and remote.
+test_963,4,10,"Florida is so nice, I love it there! Where do you want to move? Florida is sometimes not the best for agriculture, I know"
+test_963,4,11,Tell me about it. Almost all of our garden is regulated greenhouse growth. As far as where I will end up I think I have my heart set on Montana.
+test_964,4,0,I ordered a pizza of the variation just under discussion. 
+test_964,4,1,With pineapple on it? Gross! Did you get ham on it too?
+test_964,4,2,Nope! But I did get bacon on it. That's my absolute favorite! Have you ever tried it?
+test_964,4,3,Bacon on pizza is great! Just not with pineapple
+test_964,4,4,That's fair. It certainly isn't for everyone! What's your favorite type of specialty pizza?
+test_964,4,5,"My favorite is a real Italian style margharita pizza with fresh basil, tomatoes, and mozzarella. This is usually more expensive though, and you can't get it from a fast food place."
+test_964,4,6,Margharita pizza is delicious! I just had some last week. 
+test_964,4,7,Did you go to Italy at all when you studied in Europe?
+test_964,4,8,"No, I wish I would have been able to go! Maybe someday I'll take a vacation there. Have you ever been there?"
+test_964,4,9,I never have but I really want to! I can only imagine how much tastier autentic Italian food is than the stuff we get here.
+test_964,4,10,I bet it's absolutely delicious. Maybe we could plan to go together. That would be so much fun!
+test_964,4,11,"Yeah, that would be great! It is going to take me a while to save up enough money for a plane ticket, though"
+test_967,4,0,How is your new apartment treating you?
+test_967,4,1,I like it! I like that it is closer to nature than my old apartment.
+test_967,4,2,"That's awesome, I'm so glad you like it! Have you been on any of the trails near your apartment yet?"
+test_967,4,3,Yes I have! I took a break from unpacking to check it out and it is very nice.
+test_967,4,4,Great! Did you see any cool animals or bugs while hiking? Did you take any pictures?
+test_967,4,5,"I was running on the trail, so I didn't take time to stop and look around. Maybe I should next time"
+test_967,4,6,That makes sense haha. You should! I'd love to see any pictures you take.
+test_967,4,7,"You are so interested in animals! Dogs, cats, monkeys, bugs. That's really cool, but I have never been much of an animal person"
+test_967,4,8,"I do like animals, but I also just love appreciating nature. Even when I don't like something, I try my best to appreciate it from a distance!"
+test_967,4,9,"That is a great attitude. I definitely try to enjoy the beauty of nature, but I should get up close to understand it better."
+test_967,4,10,"Thank you! I definitely recommend it, especially since you spend so much time outside in nature anyway!"
+test_967,4,11,The nature is part of my new home too. I ought to get familiar with the outdoor surroundings now that I live here
+test_975,4,0,My family asked to go camping for the holiday weekend.
+test_975,4,1,That sounds like alot of fun. Are you taking all the kids to the lake this year?
+test_975,4,2,"I don't know yet. We might depending on my work schedule. I'm dreading this camping trip, though. I'm not a big fan of sleeping outside. Camping to me is a 2-star Marriott. LOL!"
+test_975,4,3,LOL! I love camping. Me and the puppers are going soon to do some hiking and camping in California. Im visiting my family over the summer. 
+test_975,4,4,"Any camping tips for a newbie like me? By your tone, I assume that you get along well with your family."
+test_975,4,5,Over pack for the trip. Better to have it and not need it than need it and not have it. I get along with them well.  My siblings and I are very close. I get to meet my new niece and Im sooo excited!!
+test_975,4,6,"That's so cool. I'm so happy for you! You know, I'll bet that your family is going ask you when you are going to settle down and have kids of your own. lol!"
+test_975,4,7,They I think finally realize that the only kids they get from me have four legs and all furry. 
+test_975,4,8,"Well, that's good. I'm sure that you'll have a fantastic time. Where in California does your family live? Are you planning to visit anywhere else while you're out here?"
+test_975,4,9,They live in Santa Barbra down south. Im planning on going to Las Vegas with my Mom and sisters for a weekend. Girls time.
+test_975,4,10,Are you a gambler or are you going there to people watch and go to shows?
+test_975,4,11,We are going to do it all. We are staying at the Hard Rock Hotel  so we will be having a blast.  
+test_980,4,0,What kind of mustangs do you have?
+test_980,4,1,I have an EcoBoost convertible and a Premium Fastback. If you ever want to see them we can go on a drive sometime!
+test_980,4,2,"That sounds like fun, you should bring your monkey Lilith! Which mustang do you prefer to cruise in?"
+test_980,4,3,"Yeah, I think she'd like that! Definitely the convertible. Nothing like feeling the sun on your skin and wind in your hair. "
+test_980,4,4,"Sure thing, if she doesn't try to jump out! I agree about the sun and the wind, though I've usually perused those on motorcycles... Maybe you could take me for a tour of the zoo where you work?"
+test_980,4,5,I didn't know you rode motorcycles. That's so cool! I'm too scared to try. I'd love to take you on a tour of the zoo! We have after hour specials where the zookeepers are able to bring their family and friends. That way you'll get a much better look at everything without all the crowds!
+test_980,4,6,"That does sound nice, a bit more relaxed than normal hours no doubt. Yes, I enjoy the balance and control and the challenge of improving my skills. I've had three motorcycles so far, but haven't ridden in quite a few years now..."
+test_980,4,7,It's definitely a perk of knowing a zookeeper! That is commendable. Why haven't you been riding your motorcycles lately?
+test_980,4,8,"the lifeguard job doesn't pay much, so I've had to cut back on some luxuries to cover the costs of school. But hey, we can still fly our kites right? How do you ever have time to enjoy those mustangs with all those animals to look after?"
+test_980,4,9,"That makes sense, I'm sorry to hear that. Yes! There is always time to fly kites, as long as the wind permits haha. I try to squeeze in time wherever I can find it. Whether it's waking up a little earlier or staying up a little later, I try to make some time so I can enjoy the alone time. I definitely recommend devoting some part of your day to something you love doing, even if you can only spare a few minutes."
+test_980,4,10,"That's good to hear, and just plain good advice! I probably spend a little TOO much time on things I love. maybe if i focused more on productivity I'd get another bike this year and get back out in the wind..."
+test_980,4,11,"Haha. Well, I think life is really all just a balance of doing things you should do and doing things you want to do. Everything in moderation!"
+test_982,4,0,The hobby shop has a great deal on paints. I can get any colors I need to paint your pets.
+test_982,4,1,That would be amazing. I would love my painting colors to be as realistic as possible. What is the painting style that you specialize in?
+test_982,4,2,I also usually do realistic paintings but I have been trying to get inspiration from Impressionism recently
+test_982,4,3,Wow that sounds interesting. I'm not sure if I've ever seen an Impressionistic Painting. I'm sure your painting style will be great! Are you learning about Impressionism in your graduate school program
+test_982,4,4,"Yes I am, that is what inspired me to try this style. It is a little bit realistic, but can be more interpretive"
+test_982,4,5,"Okay, I am so excited to have you paint my beloved animals! How much would you charge me, and about how long would the process take?"
+test_982,4,6,"it depends how big you want the paintings, I charge more for a bigger painting"
+test_982,4,7,"I'd like to just get one 14"" by 14"" painting. I think it will look nice in my living room where their cages are. I'd love to show it off to my zookeeping colleagues"
+test_982,4,8,"Do you want all of them in one picture? That will cost more, too because it will take more work"
+test_982,4,9,"Yes, I have one raccoon and one bearded dragon. I'm fine with the cost, I love to pay small content creators! What are you thinking for the cost?"
+test_985,4,0,Did your dog enjoy the product I sent to you?
+test_985,4,1,Yes! Where can I go leave feedback? On  your website?                                                                                  
+test_985,4,2,"Yes, that would be great! It's listed on the back of all of the packaging. Please pass around the business cards I sent to anyone you think may be interested as well."
+test_985,4,3,"The toys seem very durable so far. My dog has tried and tried to rip it apart, but it's strong! It's hard for me to find toys my dog doesn't destroy right away. You do good work."
+test_985,4,4,"Like I said, I've been through many test phases, trial & error you know. So, what was your fave, the green or the purple?"
+test_985,4,5,"My dog seems to like the purple best, or seem most intent on testing it, at least. I really like the green palm tree though. Do you have those near your beach?"
+test_985,4,6,"Most definitely, yes! I love the beach so much, it just evens me out a bit. Do you ever make it to a beach?"
+test_985,4,7,"No, I have never seen the ocean except from a plane. We have lots of huge lakes, but I know it's not the same. Maybe I need to plan a trip."
+test_985,4,8,"For sure, you'd probably really enjoy it. Does it get cold where you live?"
+test_985,4,9,"Oh, yeah! Frigid. I do like the cold, but it'd be nice to have a beach summer vacation. Quite a difference from my usual scene. I tend to prefer mountains, but I can't say for sure since I haven't actually been to the ocean. What you said about the benefits of salt in the air sounds appealing though."
+test_985,4,10,"I love the mountains too, and they're only like an hour drive from me. It's funny, I can be surfing in the morning and playing in the snow by the afternoon."
+test_985,4,11,Do you live in California? The Carolinas? I considered North Carolina for work once upon a time but ended up in Nebraska. 
+test_987,4,0,I just take lesson to my students for exam. Some discus about hiking for relaxation.
+test_987,4,1,Do you still want to be a principal then? I don't like mine. Maybe you could be mine haha
+test_987,4,2,I do want to be a principal because I care very much about my students' education. What is your favorite part about your school?
+test_987,4,3,I like art class the most. The rest of it sucks and I feel like I don't need it. My teachers are mean. I love when school is out.
+test_987,4,4,What do you want to do after high school? Would you like to continue art?
+test_987,4,5,I am not sure yet. Maybe I will be a lifeguard and move back to the beach on my own. I am sad to be leaving. I do not think I want to go to college.
+test_987,4,6,Where are you moving to?
+test_987,4,7,I am moving to the mountains in TN because my father lost his job and we have to go live with family members I have never met.
+test_987,4,8,"That definitely sounds scary, but at least there will be good hiking in the mountains!"
+test_987,4,9,"You are right about that I will have a bunch of new beautiful places to see, thanks!"
+test_987,4,10,Of course!! And there will be lots of new birds!
+test_987,4,11,I will have to buy a new camera to take pics of them all! I can send you some if you want.
+test_989,4,0,I think I might go back to Italy instead of Greece for Spring Break. Talking to you about it reminded me how much I love Italy. Do you have any recommendations for a restaurant in Italy?
+test_989,4,1,That's awesome. Everyone also stereotypes the pizza or meatballs because it's Italy. But I recommend any restaurant that can make a good pasta. That is the key to a successful Italian restaurant. Are you going with your family?
+test_989,4,2,"No, I'm travelling there alone, but I have friends from Europe that are going to meet up with me there. If I remember right, Northern and Southern Italian food are completely different. "
+test_989,4,3,"Yes. While Southern Italian food is driven by the sea, Northern Italian food embraces the land. It really depends on what you prefer. What was your favourite part about Italy?"
+test_989,4,4,"The architecture. Seeing things that have been around for a thousand years was pretty amazing. I'm a big history buff, so it really appealed to me."
+test_989,4,5,Oh that's awesome. Did you major in History at school?
+test_989,4,6,"No, but I took a history class or two before I dropped out. I read a lot about history, though, and watch a lot of documentaries on the History Channel. I guess that only place that would be better to visit to study history would be Greece. "
+test_989,4,7,Ah fair enough. What kind of history are you into? I really enjoy Greek mythology. I did a case study on Poseidon once.
+test_989,4,8,Really? I don't even know what a case study is. lol! Is that like a further in-depth study? Wasn't he God of the Sea or something like that?
+test_989,4,9,"Yes, it is essentially a study based on a few accounts from all the way back in that time. I compiled that information and made a study on how he contributed to the aid of Zeus at the time. He is the God of the Sea, Earthquakes, and Horses."
+test_989,4,10,"He's a busy guy! lol! I guess I haven't ever been able to get into Greek mythology because it's just that - mythology. Real historical accounts, people, and ruins have always fascinated me much more."
+test_989,4,11,Fair enough. I understand what you mean. I like the idea of superhuman powers. And I liked Poseidon because he had a cool trident. Is there any historical event that particularly interested you?
+test_992,4,0,I found a karaoke bar that is pet-friendly; especially dogs!
+test_992,4,1,That's awesome I can bring my friend and her pugs and we will have a blast!
+test_992,4,2,So what is your favorite song to sing @ Karaoke?
+test_992,4,3,"I love to sing We Will Rock You by Queen, it gets everyone up and moving, how about you?"
+test_992,4,4,Islands in the Stream! It blows my mind how everyone just knows that song.
+test_992,4,5,I knew it! I will be right up there singing it with you! Afterwards I will have to show you my latest painting.
+test_992,4,6,"Yes, I can't wait to see ""Who"" it is! LMAO  I have to ask, how do you manage 4 dogs?"
+test_992,4,7,"I see what you did there hahaha and it really isn't too bad since they are small, but it can be a handful to try to walk them all at once. Cuties though!"
+test_992,4,8,"You're a very good friend. I don't think I'd be able to have them with me for that long, I'd get too attached and not want to give them back."
+test_992,4,9,"Haha well thanks, I am just happy to be able to help a friend in need!"
+test_992,4,10,"I have a feeling you'll have a new masterpiece soon, a painting of four dogs."
+test_992,4,11,Haha yes maybe I can paint you sitting with them
+test_994,4,0,I read the Tori Spelling novel you told me about!
+test_994,4,1,Awesome! What did you think of it?
+test_994,4,2,I thought it was really good. Thanks for recommending it. You also said you watch a lot of movies. Can you recommend a good movie to me too?
+test_994,4,3,"Well, I've been watching a lot of romantic comedies lately. We should watch a couple the next time we have a movie night! I also wanted to ask, are there any cop shows you'd recommend? I'd like to try watching them too."
+test_994,4,4,I would recommend Manifest and Line of Duty for cop shows. Do you have any romantic comedies you would recommend?
+test_994,4,5,"I'll add them to my list! Actually, you're going to love this. They remade our favorite, ""Clueless""! And it actually looks really funny!"
+test_994,4,6,"That's great news! I'd love to see a remake of the movie both you and I love, especially a funny one!  To change the subject a little bit, I'm thinking about buying a new car. Have you had any repair problems with your Subaru?"
+test_994,4,7,"So far, I love my Subaru! I haven't had any problems with it, even when I go off-road to take pictures. I'd recommend one for sure."
+test_994,4,8,"I will definitely go to the Subaru dealership to check those out. I have head really good things about Subarus from other people too. I went to a Volvo meet last weekend and test-drove an electric car. It was a thrill for me to do that, the car was so luxurious. But I could never afford it. Subarus are more in my price range. Does yours have a smooth ride to it or does it take road imperfections hard?"
+test_994,4,9,"It's been really smooth, and I go pretty far off road to take pictures. It also has a lot more room than those electric cars, so you'll have plenty of room for more family trips with your neices and nephews. I'd love to invest in an electric car in the future, but for now I'm right there with you. Subarus are a lot more affordable."
+test_994,4,10,"That's a good point you make about needing plenty of room for my nieces and nephews. I drive them all over the place in AZ. Of course, I don't have to worry so much about snow and ice being hard on my car in AZ. Where do you live and do you have to worry about winters being hard on your Subaru?"
+test_994,4,11,"I'm farther east, and we definitely get hit with the ice and snow up here. It's hard on cars but I've learned how to care for my Subaru. For example, I buy snow tires every year. And driving around Arizona with the family sounds like so much fun!"
+test_996,4,0,Let me tell you about this fantastic Kung fu movie I saw recently.
+test_996,4,1,Please do I can't wait to hear it! 
+test_996,4,2,"i have watched the movie ""the kung fu master recently. did you watched it yet?"
+test_996,4,3,I have it is one of my favs. What is your favorite part?
+test_996,4,4,i loved all the scenes of bruce lee. he is an undeniable and charmingly compelling performer. what do you think about him?
+test_996,4,5,"He was the absolute master! What is your fav Bollywood movie, I still have not seen one!"
+test_996,4,6,i dont watch much of bollywood movies. but my favorite is rang de basanti. it is an absolutely briiliant movie.
+test_996,4,7,What is it mostly about? I thought you did since they have a lot of singing and dancing.
+test_996,4,8,the film sails from funny and happy going to serious patriotic so subtly you almost don't feel the change.
+test_996,4,9,"That is much different from Agatha Christie that is for sure, I know you love her but I just do not get it."
+test_996,4,10,i like it because it tries to bring certain elements in the freedom struggle.
+test_996,4,11,Well I am about to make some yummy chicken lo mein for dinner.
+test_1000,4,0,How have your studies been going lately? Have you thought about summer plans to take a break from all the studying?
+test_1000,4,1,"My studies have been going well, its a bit of a challenge at times and very intensive, but I manage. I haven't decided on summer plans, maybe I"
+test_1000,4,2,I think you should. It's important to get enough rest and enjoy life sometimes so you don't get burned out.
+test_1000,4,3,"That is true, I feel that I will be at my wits end if I don't relax. Perhaps I should meet up with friends and family, and go somewhere nice where we can all hand out during this summer."
+test_1000,4,4,That sounds like a great idea! Where do you think you might all go?
+test_1000,4,5,"I really enjoy going to the beach, so maybe I can ask my friends and family if they can join me in going to one. We can even have seafood afterwards, I normally don't get a chance to do so."
+test_1000,4,6,"That sounds fun, I love the beach too! There's nothing quite like fresh caught seafood straight from the surf... When does your summer break start?"
+test_1000,4,7,"I still have about two weeks left until summer break, so I am in the middle of finishing my classes. I am really working hard on studying so I can take my finals, I don't want to do badly on them by neglecting to study."
+test_1000,4,8,"Well, I sure hope you're not neglecting your studies right now to have this chat with me. I wouldn't want to be a bad influence on you."
+test_1000,4,9,"Its no problem, I still need to take a break now and then, I try to study the content every day so it sticks. Many nurses tend to cram a lot of content in a given time, some before exams which ends up being very exhausting and not very effective. I need to study bit by bit to really learn the content."
+test_1000,4,10,"I agree, cramming for tests is unhealthy and relatively ineffective because you don't have time to truly digest the information. on the other hand if you spread it out too much, you also risk forgetting some things."
+test_1000,4,11,"Its definitely a balance that has to be carefully done for your education. How about yourself, do you have any ideas what you want to do this summer?"
+test_1005,4,0,I've decided to go to Colorado on a hike.
+test_1005,4,1,That sounds lovely! Will you be going with anybody else and do you think you'll try camping again?
+test_1005,4,2,"I'm going alone this time. yes, I'll probably take my tent and find a nice campground in the woods. have you ever been hiking in Colorado?"
+test_1005,4,3,"I have not been hiking there but I've seen pictures and it looks gorgeous. I'd love to visit in the fall sometime, maybe next year. Where in Colorado will you be and will you take your Labrador with you?"
+test_1005,4,4,"You really should try it. Pictures don't do it justice since they can't convey how consistently nice the weather usually is. even when it's hot, it's usually dry, so pretty comfortable and cool in the shade. I'll probably head north of Denver towards the Ft. Collins area. I haven't decided if i should bring my dog because i'm sure she'd like the forest, but not so sure she'd like the long car ride.  "
+test_1005,4,5,"Well it sounds really great. Be safe and have an amazing time! I've been thinking by the way that I might finally get a dog, given how much my grandkids love them. Any dog breed you'd recommend? Labradors, obviously, haha, but any others?"
+test_1005,4,6,"Thanks, I'll keep you posted on my plans. That's fantastic, i think you should! There's a lot to love about Labradors, but Retrievers are also great. If you can handle a higher maintenance breed, Jack Russell Terriers are full of life and personality."
+test_1005,4,7,"Hm, I think I'll take a lower maintenance breed these days probably. Ah, I've heard that Retrievers can be great companions too. I'll look into both breeds and keep you posted. Which reminds me -- I went to a coffee shop that was dog-friendly the other day. Very high-end coffee and cold brews, etc. I bet you'd love it. "
+test_1005,4,8,"understandable, Jack Russel's can also be a bit more aggressive, but all three breeds are pretty great with kids! That sounds like a great coffee shop indeed. wouldn't mind meeting a new friend over some fresh roasted Colombian, while me dog meets a new friend too!"
+test_1005,4,9,"Yes, I'll definitely be back once we have our new member of the family! I think I had some Colombian coffee while I was there -- It was strong but delicious. I was torn between that and a French roast. Do you have a favorite kind of coffee bean?"
+test_1005,4,10,"That's exciting, do keep me posted if you decide on a breed! Honestly my tastes in coffee tend to change a lot. I like to experiment. Lately I've even been using my French press to steep loose leaf, Earl Grey tea, which is just lovely."
+test_1005,4,11,"Very interesting -- Yes, I had a big tea kick several years ago and thought Earl Grey could just about compete with my morning coffee. Almost, but not quite, so I'm back with my two cups in the morning. I have been experimenting with some herbal teas later in the day since I like to sip something warm but the caffeine will keep me awake. Do you also drink herbal teas?"
+test_1006,4,0,I just went to get gas and the handle to my car door fell off when I got home. I need a new car.
+test_1006,4,1,Oh no! I usually love the Honda hatchbacks because they are so reliable! I know that you are interested in buying a new car soon. Let me know if you need help with that! I'm sure my dealership would have cars you would like. 
+test_1006,4,2,THANK YOU!!! I would appreciate that so much.  What kind of car do you recommend? 
+test_1006,4,3,I love the Honda hatchbacks! They are very reliable! The new honda is alot stronger and durable than the old oens
+test_1006,4,4,I will have to come see you soon at the car lot then. I will wear my new Five Finger Death Punch shirt. 
+test_1006,4,5,That would be awesome! If i didn't have a uniform at work I would wear mine all the time. I love them!
+test_1006,4,6,That would be a great sales technique I would think.  I heard they will be coming to town soon. Are you going to get tickets?
+test_1006,4,7, Hopefully! I just have to make sure I don't have to work. How about you? Did you get tickets? I know last time we talked you had mentioned that yoou have never seen them live
+test_1006,4,8,YUP!! I stayed up all night just to be able to buy them online the moment they went on sale.  I really hope to be going to the concert in my new car.  
+test_1006,4,9,That would be the most exciting experience! New car and first time seeing your favorite band! The new Hondas have bluetooth so you could connect your phone and play your own music on the way to the concert instead of listening to country!
+test_1006,4,10,OMG!! That is so cool!  I'm sold!!! Do you work this weekend?  
+test_1006,4,11,I actually have this weekend off! I can't wait to just sit and read one of my books. Have you even read any murder mystery novels?
+test_1010,4,0,"Since you paint outdoors, does that mean your paintings are mostly landscapes?"
+test_1010,4,1,"Most times I do paint landscapes, but periodically I'll do portrait commissions. Have you ever considered painting with your watercolors more?"
+test_1010,4,2,I need to. It really helps during stressful times like I am experiencing now.
+test_1010,4,3,"Yeah, I remember you mentioning the crash. I'm just happy you're okay! Did you talk to your boss about it yet?"
+test_1010,4,4,Not yet. He is making me sweat it out! I am so nervous!
+test_1010,4,5,"Yeah, my gosh. You'd think he'd want to get the conversation over with! Are you planning on staying in the driving business or have you looked into other lines of work?"
+test_1010,4,6,I talked to me neighbor about getting a job. He owns a construction company and said he will try to help me out. Fingers crossed that works!
+test_1010,4,7,I'll keep you in my thoughts! Hopefully you get the job & won't have as many stressors.
+test_1010,4,8,"In the meantime, I will get back to painting. It is so peaceful and a great way to release your emotions."
+test_1010,4,9,"We should get together and paint! I'm free this weekend, if you want to catch a break."
+test_1010,4,10,Let's do it! I will make some lasagna and bring it to feast on!
+test_1010,4,11,"Sounds lovely! I can make some fish stew, if you want. We can have a nice little potluck."
+test_1011,4,0,I booked a sailing excursion for next week to see if I get seasick.
+test_1011,4,1,Well have you been prone to motion sickness before? Such as in a long car drive or an airplane? 
+test_1011,4,2,"No, just like I said before, only the one time."
+test_1011,4,3,Well just make sure you don't eat too heavy while you are on your sailing excursion. Will you be with your family if something happens?
+test_1011,4,4,Just me. I don't want to book my cruise until I find out if I'll be okay.
+test_1011,4,5,Of course I understand. Where will you be traveling if you plan to go on that cruise? Any place fun?
+test_1011,4,6,Alaska! It's so hot right now and I want to get away from it.
+test_1011,4,7,WOW yeah you're definitely going to have a blast. Just as I mentioned it was one of the places that I want to go as well. Very jealous that you are planning that trip! 
+test_1011,4,8,If I find a good deal I can let you know. I'm looking to go in August.
+test_1011,4,9,"Perfect timing for that, especially if you are looking to get away from rising temperatures. Who are you planning to book your cruise through? "
+test_1011,4,10,The internet? I don't know. I was just going to try to find a deal online. Do you have any advice?
+test_1011,4,11,Expedia actually has some pretty good cruise deals that you can use. I go through Expeida all the time. 
+test_1014,4,0,I've made plans to hike at Słowiński National Park while I'm in Poland.
+test_1014,4,1,Oh wow! What's that going to be like?
+test_1014,4,2,"It will be majestic, picturesque, and beautiful! But, also very challenging! Very rugged terrain."
+test_1014,4,3,You're probably all set to handle that already though right?
+test_1014,4,4,I sure am! I have been training. I am always up for a challenge though!
+test_1014,4,5,Is the altitude high there? Will you have to adjust for that?
+test_1014,4,6,"It will be high. That will be the hardest part, I think."
+test_1014,4,7,"I remember visiting Denver once. For me, that was high altitude. Took me a little while to adjust. "
+test_1014,4,8,The altitude can make or break it for most people.
+test_1014,4,9,I bet you're going to have a great time though. Solo hike or with someone else?
+test_1014,4,10,My family will join me. It will be quality bonding time.
+test_1014,4,11,That should be really nice. Make sure to get a ton of photos!

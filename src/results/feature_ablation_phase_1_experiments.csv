@@ -1,0 +1,17 @@
+model,features
+ablation_single_position,position
+ablation_single_agency,agency
+ablation_single_possession,possession
+ablation_single_interjection,interjection
+ablation_single_discourse_marker,discourse_marker
+ablation_single_emotion,emotion
+ablation_single_negation,negation
+ablation_single_temporal,temporal
+ablation_full_minus_position,"agency, possession, interjection, discourse_marker, emotion, negation, temporal"
+ablation_full_minus_agency,"position, possession, interjection, discourse_marker, emotion, negation, temporal"
+ablation_full_minus_possession,"position, agency, interjection, discourse_marker, emotion, negation, temporal"
+ablation_full_minus_interjection,"position, agency, possession, discourse_marker, emotion, negation, temporal"
+ablation_full_minus_discourse_marker,"position, agency, possession, interjection, emotion, negation, temporal"
+ablation_full_minus_emotion,"position, agency, possession, interjection, discourse_marker, negation, temporal"
+ablation_full_minus_negation,"position, agency, possession, interjection, discourse_marker, emotion, temporal"
+ablation_full_minus_temporal,"position, agency, possession, interjection, discourse_marker, emotion, negation"

@@ -1,0 +1,17 @@
+model,features,total_rows,gold_relevant_rows,predicted_relevant_rows,accuracy,precision_macro,recall_macro,f1_macro,precision_relevant,recall_relevant,f1_relevant,model_path
+ablation_single_position,position,25459,16432,25459,0.645,0.323,0.5,0.392,0.645,1.0,0.785,model/feature_ablation/ablation_single_position.joblib
+ablation_single_agency,agency,25459,16432,15208,0.751,0.732,0.744,0.736,0.832,0.77,0.8,model/feature_ablation/ablation_single_agency.joblib
+ablation_single_possession,possession,25459,16432,25338,0.643,0.463,0.499,0.395,0.645,0.995,0.783,model/feature_ablation/ablation_single_possession.joblib
+ablation_single_interjection,interjection,25459,16432,24099,0.648,0.59,0.52,0.458,0.655,0.961,0.779,model/feature_ablation/ablation_single_interjection.joblib
+ablation_single_discourse_marker,discourse_marker,25459,16432,25454,0.645,0.523,0.5,0.392,0.645,1.0,0.784,model/feature_ablation/ablation_single_discourse_marker.joblib
+ablation_single_emotion,emotion,25459,16432,21727,0.637,0.569,0.538,0.517,0.666,0.88,0.758,model/feature_ablation/ablation_single_emotion.joblib
+ablation_single_negation,negation,25459,16432,25459,0.645,0.323,0.5,0.392,0.645,1.0,0.785,model/feature_ablation/ablation_single_negation.joblib
+ablation_single_temporal,temporal,25459,16432,25459,0.645,0.323,0.5,0.392,0.645,1.0,0.785,model/feature_ablation/ablation_single_temporal.joblib
+ablation_full_minus_position,"agency, possession, interjection, discourse_marker, emotion, negation, temporal",25459,16432,15808,0.766,0.745,0.752,0.748,0.831,0.799,0.815,model/feature_ablation/ablation_full_minus_position.joblib
+ablation_full_minus_agency,"position, possession, interjection, discourse_marker, emotion, negation, temporal",25459,16432,17627,0.669,0.632,0.623,0.626,0.727,0.78,0.752,model/feature_ablation/ablation_full_minus_agency.joblib
+ablation_full_minus_possession,"position, agency, interjection, discourse_marker, emotion, negation, temporal",25459,16432,15582,0.74,0.719,0.727,0.722,0.815,0.773,0.793,model/feature_ablation/ablation_full_minus_possession.joblib
+ablation_full_minus_interjection,"position, agency, possession, discourse_marker, emotion, negation, temporal",25459,16432,15785,0.767,0.746,0.753,0.749,0.832,0.8,0.816,model/feature_ablation/ablation_full_minus_interjection.joblib
+ablation_full_minus_discourse_marker,"position, agency, possession, interjection, emotion, negation, temporal",25459,16432,15808,0.767,0.746,0.753,0.749,0.832,0.801,0.816,model/feature_ablation/ablation_full_minus_discourse_marker.joblib
+ablation_full_minus_emotion,"position, agency, possession, interjection, discourse_marker, negation, temporal",25459,16432,15831,0.775,0.755,0.762,0.758,0.838,0.808,0.823,model/feature_ablation/ablation_full_minus_emotion.joblib
+ablation_full_minus_negation,"position, agency, possession, interjection, discourse_marker, emotion, temporal",25459,16432,15840,0.768,0.748,0.754,0.751,0.833,0.803,0.817,model/feature_ablation/ablation_full_minus_negation.joblib
+ablation_full_minus_temporal,"position, agency, possession, interjection, discourse_marker, emotion, negation",25459,16432,15815,0.768,0.747,0.754,0.75,0.833,0.802,0.817,model/feature_ablation/ablation_full_minus_temporal.joblib
